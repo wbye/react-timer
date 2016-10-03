@@ -1,0 +1,26 @@
+{
+  "name": "react-timer",
+  "version": "0.0.1",
+  "description": "Component for React to render dates by using html <span> element ,and simply do not need moment,only depend on React.Small and simple , only 3kb(uncompressed).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbye/react-timer.git"
+  },
+  "keywords": [
+    "React",
+    "React-Component",
+    "Time",
+    "Format",
+    "Time-Format"
+  ],
+  "author": "wbye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbye/react-timer/issues"
+  },
+  "homepage": "https://github.com/wbye/react-timer#readme"
+}
