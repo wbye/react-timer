@@ -1,4 +1,4 @@
-React Timer
+React Time Format
 ==========
 
 Component for React to render dates by using html <span> element ,and simply do not need moment,only depend on React.Small and simple , only 3kb(uncompressed).
@@ -6,14 +6,14 @@ Component for React to render dates by using html <span> element ,and simply do 
 Installation
 ------------
 
-    % npm install react-timer --save-dev
+    % npm install react-time-format --save-dev
 
 Usage
 ------------
 
 ```jsx
 import React from 'react'
-import Time from 'react-timer'
+import Time from 'react-time-format'
 
 class MyComponent extends React.Component {
 
@@ -30,4 +30,4 @@ class MyComponent extends React.Component {
 ```
 
 [React]: https://facebook.github.io/react/
-[react-timer]: https://wbye.github.io/react-timer
+[react-time-format]: https://wbye.github.io/react-timer
