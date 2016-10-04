@@ -1,7 +1,7 @@
 React Time Format
 ==========
 
-Component for React to render dates by using html <span> element ,and simply do not need moment,only depend on React.Small and simple , only 3kb(uncompressed).
+Component for React to render dates by using html <span> element ,and simply do not need moment,only depend on React.Small and simple ,src code only 3kb(uncompressed).
 
 Installation
 ------------

@@ -1,7 +1,7 @@
 {
   "name": "react-time-format",
-  "version": "0.0.2",
-  "description": "Component for React to render dates by using html <span> element ,and simply do not need moment,only depend on React.Small and simple , only 3kb(uncompressed).",
+  "version": "0.0.3",
+  "description": "Component for React to render dates by using html <span> element ,and simply do not need moment,only depend on React.Small and simple ,src code only 3kb(uncompressed).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
