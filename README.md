@@ -18,15 +18,36 @@ import Time from 'react-time-format'
 class MyComponent extends React.Component {
 
   render() {
-    let now = new Date();
+    let celebrateDay = new Date('2016-10-05');
     return (
       <div>
-        <p>Today is <Time value={now} format="YYYY/MM/DD" /></p>
-        <p>Today is <Time value={Date.now()} format="YYYY-MM-DD" /></p>
+        <p>CelebrateDay is <Time value={celebrateDay} format="YYYY/MM/DD" /></p>
+        <p>Today is <Time value={Date.now()} format="YYYY-MM-DD" style={{color:'red'}} /></p>
       </div>
     )
   }
 }
+```
+Dom Render
+-------------
+```
+<div>
+  <p>CelebrateDay is <span>2016/10/05</span></p>
+  <p>Today is <span style="color: red;">2016-10-05</span></p>
+</div>
+```
+
+Time Format
+-------------
+```
+YYYY-MM-DD hh:mm:ss
+Y: year 
+M: month
+D: day
+h: hour
+H: hour
+m: minute
+s: second
 ```
 
 [React]: https://facebook.github.io/react/

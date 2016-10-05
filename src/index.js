@@ -17,7 +17,7 @@ class Time extends React.Component {
         this.displayName = 'Time';
     }
     formatTime(){
-    	const {value,format} = this.props;
+    	const {value='',format} = this.props;
 
     	return Time.format(value,format);
     }
@@ -32,6 +32,9 @@ class Time extends React.Component {
 Time.format = function(value,format ='YYYY-MM-DD hh:mm:ss'){
 	var ReplaceFunction = {};
 
+	if(!value){
+		return '';
+	}
 	if(typeof value!=='object'){
 		value = new Date(value);
 	}
